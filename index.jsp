@@ -7,10 +7,10 @@
 </head>
 
 <BODY>
-<TABLE width=95% border = 0 cellborder=0 cellpadding="2" cellspacing="0" align="center">
+<TABLE width="95%" border="0" cellborder=0 cellpadding="2" cellspacing="0" align="center">
 <TR>
    <td valign=center align=left class="mainTitleHeader">
-     <DIV STYLE="position:absolute; top:30px; left:40px; width:130px; height:55px; color: white; font-variant: small-caps">
+     <DIV STYLE="position:absolute; top:30px; left:40px; width:130px; height:55px; color:white; font-variant: small-caps">
      <CENTER>Lexscien</CENTER>
      </DIV>
    </td>
@@ -26,14 +26,14 @@
 <table class="tborder" width="95%" cellspacing="1" cellpadding="2" align="center">
   <tr class="topmenu">
     <td align="left" nowrap>&nbsp;
-      <a href="index.jsp" class="topmenu">Home</a>&nbsp;|&nbsp;
-      <a href="infoabout.jsp" class="topmenu">About Us</a>&nbsp;|&nbsp;
-      <a href="infocontents.jsp" class="topmenu">Contents</a>&nbsp;|&nbsp;
-      <a href="infofeatures.jsp" class="topmenu">Capabilities</a>&nbsp;|&nbsp;
-      <a href="infopricing.jsp" class="topmenu">Pricing</a>&nbsp;|&nbsp;
-      <a href="register.jsp" class="topmenu">Register</a>&nbsp;|&nbsp;
-      <a href="infocontacts.jsp" class="topmenu">Contact Us</a>&nbsp;|&nbsp;
-      <a href="infouserguide.jsp" class="topmenu">Help</a>&nbsp;|&nbsp;
+      <a href="index.html" class="topmenu">Home</a>&nbsp;|&nbsp;
+      <a href="infoabout.html" class="topmenu">About Us</a>&nbsp;|&nbsp;
+      <a href="infocontents.html" class="topmenu">Contents</a>&nbsp;|&nbsp;
+      <a href="infofeatures.html" class="topmenu">Capabilities</a>&nbsp;|&nbsp;
+      <a href="infopricing.html" class="topmenu">Pricing</a>&nbsp;|&nbsp;
+      <a href="register.html" class="topmenu">Register</a>&nbsp;|&nbsp;
+      <a href="infocontacts.html" class="topmenu">Contact Us</a>&nbsp;|&nbsp;
+      <a href="infouserguide.html" class="topmenu">Help</a>&nbsp;|&nbsp;
     </td>
   </tr>
 </table>
@@ -100,13 +100,6 @@
     </td>
   </tr>
 
-<!--   <tr class="trow1" align="center">                                    -->
-<!--     <td>                                                               -->
-<!--       <img src="resources/logoIONS.gif" vspace="2"> <br>                   -->
-<!--       <a href="http://www.noetic.org/" class="offsite" target="_blank">Institute for Noetic Science</a> -->
-<!--     </td>                                                              -->
-<!--   </tr>                                                                -->
-
 </table>
 
     </td>
@@ -137,7 +130,7 @@ journals, books and magazines publishing serious research into anomalies and
 controversies in science and the humanities.
 Lexscien currently contains various journals and magazines,
 with more in preparation that will be ready soon
- (<a href="infocontents.jsp" class="command">see list</a>).
+ (<a href="infocontents.html" class="command">see list</a>).
 </p>
 
 
@@ -155,7 +148,7 @@ You will be able to sign up for a 7-day free trial subscription to the full libr
 <tr class="lowSubs" align="center"><td>&nbsp;&nbsp;</td><td>Low<br>Subs</td><td>&nbsp;&nbsp;</td></tr></table>
 Registered users can also subscribe to get ongoing access to the full library contents, to read and download literature.
 If you are a member of an affiliated organisation, you are entitled to a greatly discounted subscription rate
- (<a href="infopricing.jsp" class="command">see rates</a>).
+ (<a href="infopricing.html" class="command">see rates</a>).
 </p>
 
 <br clear="all">
@@ -166,7 +159,7 @@ If you are a member of an affiliated organisation, you are entitled to a greatly
 Lexscien was created by the not-for-profit organisation <a href="http://www.c-far.org" class="offsite">C-FAR</a>
 in order to help research organisations make their publications more easily accessible.  C-FAR has developed a special
 technique that makes this cost effective, but the resulting library is a bit different to other libraries.  Read about how
-it works <a href="infofeatures.jsp" class="command">here</a>.
+it works <a href="infofeatures.html" class="command">here</a>.
 </p>
 
       </td>
@@ -174,7 +167,7 @@ it works <a href="infofeatures.jsp" class="command">here</a>.
       </table>
     </td>
     <td valign="top">
-      <form action="doLogin.jsp" method="post" name="loginform">
+      <form action="doLogin.html" method="post" name="loginform">
       <input type="hidden" name="submitted" value="true">
       <input type="hidden" name="expireAutoLogin" value="90">
       <table class="tborder" width="100%" cellspacing="1" cellpadding="3" align="right">
@@ -209,8 +202,8 @@ it works <a href="infofeatures.jsp" class="command">here</a>.
       <table width="100%" cellspacing="1" cellpadding="3">
         <tr class="trow1" align="right">
           <td>
-            <a href="register.jsp" class="command">Register</a><br>
-            <a href="lblostpassword.jsp" class="command">Password reminder</a><br>
+            <a href="register.html" class="command">Register</a><br>
+            <a href="lblostpassword.html" class="command">Password reminder</a><br>
           </td>
         </tr>
       </table>
