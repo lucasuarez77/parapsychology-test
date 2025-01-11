@@ -1,3 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+
 <HTML>
 <LINK REL=StyleSheet HREF="/lexscien/resources/edb.css" TYPE="text/css" MEDIA=screen>
 
@@ -77,7 +89,7 @@
   <tr class="trow1" align="center">
     <td>
       <img src="resources/logoIMI.gif" vspace="2"> <br>
-      <a href="http://www.metapsychique.org/" class="offsite" target="_blank">Institut M�tapsychique International</a>
+      <a href="http://www.metapsychique.org/" class="offsite" target="_blank">Institut Métapsychique International</a>
     </td>
   </tr>
 
