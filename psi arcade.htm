@@ -6,10 +6,7 @@ Psi Arcade
 </head>
 <body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
 <center>
-			<div id="ruffle-container" style="width: 800px; height: 450px;">
-				<param name="movie" value="main.swf">
-				<param name="quality" value="high">
-				<param name="bgcolor" value="#FFFFFF">
+			<div id="ruffle-container" style="width: 80vw; height: 80vw;">
 			   </div>
 			   <script>
 			const ruffle = window.RufflePlayer.newest();
@@ -19,6 +16,7 @@ Psi Arcade
 				renderScale: 0.2
 				quality: 'low',
 				bgcolor: '#FFFFFF'
+				display: flex
 				});
 			document.getElementById('ruffle-container').appendChild(player);
       			  player.load('https://raw.githubusercontent.com/lucasuarez77/parapsychology-test.github.io/main/psi%20arcade_files/main.swf');
