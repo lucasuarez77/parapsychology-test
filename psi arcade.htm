@@ -1,37 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWF with Ruffle</title>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+</head>
+<body>
+    <h1>My SWF File with Ruffle</h1>
 
-<!-- saved from url=(0073)https://web.archive.org/web/20090121123521/http://psiarcade.com/main.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><script src="./psi arcade_files/athena.js" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app28.us.archive.org';v.server_ms=1057;archive_analytics.send_pageview({});});</script>
-<script type="text/javascript" src="./psi arcade_files/bundle-playback.js" charset="utf-8"></script>
-<script type="text/javascript" src="./psi arcade_files/wombat.js" charset="utf-8"></script>
-<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-<script type="text/javascript">
-    __wm.init("https://web.archive.org/web");
-  __wm.wombat("http://psiarcade.com:80/main.html","20090121123521","https://web.archive.org/","web","/_static/",
-	      "1232541321");
-</script>
-<link rel="stylesheet" type="text/css" href="./psi arcade_files/banner-styles.css">
-<link rel="stylesheet" type="text/css" href="./psi arcade_files/iconochive.css">
-<!-- End Wayback Rewrite JS Include -->
+    <!-- Ruffle player container -->
+    <div id="ruffle-container" style="width: 800px; height: 600px; border: 1px solid #ccc;"></div>
 
-		<title>
-IONS Psi Arcade
-		</title>
-		<meta name="author" content="Dean Radin">
-		<meta name="copyright" content="IONS 2003">
-		<meta name="keywords" content="">
-		
-	</head>
-	<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
-		
-		<center>
-			<div id="ruffle-container" style="width: 800px; height: 600px;">
-			   </div>
-			   <script>
-			const ruffle = window.RufflePlayer.newest();
-			const player = ruffle.createPlayer();
-			document.getElementById('ruffle-container').appendChild(player);
-      			  player.load('https://github.com/lucasuarez77/parapsychology-test.github.io/blob/main/psi%20arcade_files/main.swf');
-  			  </script>
-		</center>
-</body></html>
+    <script>
+        // Initialize the Ruffle player
+        const ruffle = RufflePlayer.newest();
+        const container = document.getElementById('ruffle-container');
+        
+        // Embed the SWF file from your GitHub repo
+        ruffle.load({
+            swf: "https://github.com/lucasuarez77/parapsychology-test.github.io/blob/main/psi%20arcade_files/main.swf",
+            container: container
+        });
+    </script>
+</body>
+</html>
