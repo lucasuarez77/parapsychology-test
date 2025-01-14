@@ -5,7 +5,6 @@
 <script type="text/javascript" src="./psi arcade_files/bundle-playback.js" charset="utf-8"></script>
 <script type="text/javascript" src="./psi arcade_files/wombat.js" charset="utf-8"></script>
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
 <script type="text/javascript">
     __wm.init("https://web.archive.org/web");
   __wm.wombat("http://psiarcade.com:80/main.html","20090121123521","https://web.archive.org/","web","/_static/",
@@ -23,10 +22,20 @@ IONS Psi Arcade
 		<meta name="keywords" content="">
 		
 	</head>
-	<!-- Created by SWiSH - Flash made easy - only $49.95 - www.swishzone.com -->
 	<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
 		
 		<center>
+			   <div id="ruffle-container" style="width: 800px; height: 600px;">
+			   </div>
+			   <script>
+			const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+	document.getElementById('ruffle-container').appendChild(player);
+        player.load(./psi arcade_files/main.swf);
+    </script>
+</body>
+</html>
+
 			<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://web.archive.org/web/20090121123521oe_/http://active.macromedia.com/flash4/cabs/swflash.cab#version=4,0,0,0" id="main" width="800" height="450">
 				  
 				<param name="movie" value="main.swf">
