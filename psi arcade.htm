@@ -8,16 +8,11 @@
 </head>
 <body>
     <h1>My SWF File with Ruffle</h1>
-
-    <!-- Ruffle player container -->
     <div id="ruffle-container" style="width: 800px; height: 600px; border: 1px solid #ccc;"></div>
 
     <script>
-        // Initialize the Ruffle player
         const ruffle = RufflePlayer.newest();
         const container = document.getElementById('ruffle-container');
-        
-        // Embed the SWF file from your GitHub repo
         ruffle.load({
             swf: "https://github.com/lucasuarez77/parapsychology-test.github.io/blob/main/psi%20arcade_files/main.swf",
             container: container
