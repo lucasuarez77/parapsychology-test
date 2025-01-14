@@ -20,7 +20,9 @@ Psi Arcade
 			   </div>
 			   <script>
 			const ruffle = window.RufflePlayer.newest();
-			const player = ruffle.createPlayer();
+			const player = ruffle.createPlayer({
+			wasm: './psi arcade_files/03a797c49daa11fddbe8.wasm'
+				});
 			document.getElementById('ruffle-container').appendChild(player);
       			  player.load('./psi arcade_files/main.swf');
       			  player.load('https://github.com/lucasuarez77/parapsychology-test.github.io/blob/main/psi%20arcade_files/main.swf');
